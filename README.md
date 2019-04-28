@@ -361,6 +361,9 @@ called `compas_x`, create an editable install on our system, and build the docs.
 *   Install the package and the necessary developer tools
 
     *   ```pip install -r requirements-dev.txt```
+
+*   Install the package for Rhino
+
     *   *Mac*: ```python -m compas_rhino.install -p compas_x```
     *   *Windows Rhino 5*: ```python -m compas_rhino.install -v 5.0 -p compas_x```
     *   *Windows Rhino 6*: ```python -m compas_rhino.install -v 6.0 -p compas_x```
@@ -372,3 +375,8 @@ called `compas_x`, create an editable install on our system, and build the docs.
 *   *Windows*: ```start firefox ./docs/index.html```
 
 ![compas_x - docs](images/compas_x-docs.png)
+
+## Case study: `compas_shell`
+
+*Under construction*
+
