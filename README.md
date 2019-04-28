@@ -257,7 +257,8 @@ the active workspace in VS Code or ST3.
     Smooth a mesh on a NURBS surface in Rhino and visualize the process with a `MeshConduit`.
 
     *   Open `03_smoothingonsurface_rhino.3dm` in Rhino.
-    *   Run `03_smoothingonsurface_rhino.py` in the Rhino PythonScriptEditor.
+    *   Run `03a_smoothingonsurface_rhino.py` in the Rhino PythonScriptEditor.
+    *   Run `03b_smoothingonsurface_rhino.py` in the Rhino PythonScriptEditor.
 
     ![Examples - 03_smoothingonsurface_rhino.py](images/03_smoothingonsurface_rhino.png)
 
