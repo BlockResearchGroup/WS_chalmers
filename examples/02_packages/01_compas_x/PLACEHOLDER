@@ -1,0 +1,25 @@
+# cd ../../../../
+# cookiecutter gh:BlockResearchGroup/cookiecutter-compas-package
+
+project name [Name of the project]: COMPAS X
+project slug [compas_x]:
+project_short_description [A short description of the project]: Extension modules for the COMPAS framework.
+version [0.1.0]:
+COMPAS_version [0.5.1]: 0.5.2
+release_date [2019-04-14]:
+copyright [Block Research Group - ETH Zurich]: NCCR - ETH Zurich
+author_name [Your name]: Tom Van Mele
+author_email [Your email]: vanmelet@ethz.ch
+github_username [Your personal Github username]: brgcode
+github_organization [BlockResearchGroup]:
+
+# cd compas_x
+# pip install -r requirements-dev.txt
+
+>>> import compas
+>>> import compas_x
+
+# invoke docs
+# open docs/index.html
+
+# python -m compas_rhino.install -v 5.0 compas_x
