@@ -13,8 +13,7 @@ __all__ = ['Shell']
 
 
 class Shell(Mesh):
-    """The ``Shell`` data structure extends the ``Mesh`` half-edge data structure.
-    """
+    """The ``Shell`` data structure extends the ``Mesh`` half-edge data structure."""
 
     def __init__(self):
         super(Shell, self).__init__()
@@ -177,22 +176,17 @@ class Shell(Mesh):
         if settings.get('show.vertices'):
             color = {key: '#ff0000' for key in self.vertices_where({'is_anchor': True})}
             artist.draw_vertices(color=color)
-
         if settings.get('show.edges'):
             artist.draw_edges()
-
         if settings.get('show.faces'):
             if settings.get('join.faces'):
                 artist.draw_mesh()
             else:
                 artist.draw_faces()
-
         if settings.get('show.forces'):
             artist.draw_forces()
-
         if settings.get('show.reactions'):
             artist.draw_reactions()
-
         if settings.get('show.residuals'):
             artist.draw_residuals()
 

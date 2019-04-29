@@ -16,14 +16,6 @@ Classes
     SelfweightCalculator
     NumericalSelfweightCalculator
 
-
-Functions
-=========
-
-.. autosummary::
-    :toctree: generated/
-    :nosignatures:
-
 """
 
 from __future__ import absolute_import
