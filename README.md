@@ -117,7 +117,7 @@ the modification of `PYTHONPATH`, you should clean that up.
 
 The recommended way to install COMPAS is using `conda`, which is the package and
 environment manager of Anaconda.
-For this workshop, we will install COMPAS version `0.5.2` in a virtual environment
+For this workshop, we will install the latest COMPAS version in a virtual environment
 named "chalmers" running on Python 3.7.
 
 On the command line, do
@@ -126,7 +126,7 @@ On the command line, do
 conda config --add channels conda-forge
 conda create -n chalmers python=3.7
 conda activate chalmers
-conda install COMPAS=0.5.2
+conda install COMPAS
 ```
 
 On Mac, also run the following
@@ -140,7 +140,7 @@ To check the installation, print the version of COMPAS in the interactive Python
 ```python
 >>> import compas
 >>> compas.__version__
-'0.5.2'
+'0.6.1'
 >>> exit()
 ```
 
@@ -191,7 +191,7 @@ To check the installation, launch Rhino and run the verification script that
 can be found at the root of the workshop repo: `verify_rhino.py`
 To run a script in Rhino, just type `RunPythonScript` at the Rhino command prompt
 and select the verification scriopt from the repo.
-The script should print out the version of COMPAS (`'0.5.2'`) in the console window.
+The script should print out the version of COMPAS (`'0.6.1'`) in the console window.
 
 **3. Install COMPAS for Blender 2.8 (Optional)**
 
@@ -229,7 +229,7 @@ interactive Python console:
 ```python
 >>> import compas
 >>> compas.__version__
-'0.5.2'
+'0.6.1'
 ```
 
 
@@ -345,7 +345,7 @@ called `compas_x`, create an editable install on our system, and build the docs.
         *   ```project slug [compas_x]:```
         *   ```project_short_description [A short description of the project]:``` **Extension modules for the COMPAS framework.**
         *   ```version [0.1.0]: ```
-        *   ```COMPAS_version [0.5.1]:``` **0.5.2**
+        *   ```COMPAS_version [0.5.1]:``` **0.6.1**
         *   ```release_date [2019-04-14]:```
         *   ```copyright [Block Research Group - ETH Zurich]:``` **NCCR - ETH Zurich**
         *   ```author_name [Your name]:``` **Tom Van Mele**
