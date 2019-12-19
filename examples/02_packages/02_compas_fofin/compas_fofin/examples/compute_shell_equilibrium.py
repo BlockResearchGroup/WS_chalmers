@@ -7,7 +7,7 @@ import os
 from compas_fofin.datastructures import Shell
 from compas_fofin.fofin import shell_update_xyz_numpy
 
-from compas.plotters import MeshPlotter
+from compas_plotters import MeshPlotter
 
 
 HERE = os.path.dirname(__file__)
